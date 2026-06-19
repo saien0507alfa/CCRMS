@@ -1,0 +1,25 @@
+# XAMPP / local server config
+config.php
+db_connect.php
+
+# Database dumps (contain patient data — never commit)
+*.sql
+backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP error logs
+*.log
+error_log
+
+# Environment/secrets
+.env
